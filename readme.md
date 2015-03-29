@@ -24,6 +24,6 @@ setTimeout(function() {
 }, 500);
 ```
 
-This module proviced funtionality similar to the standard NodeJS setTimeout-function (which is used internally).
+This module provides funtionality similar to the standard NodeJS setTimeout-function (which is used internally).
 
 The main difference is that setTimeout-function defined by this module allows the timeout to be paused and resumed any number of times in addition to being cancelled (aborted).
