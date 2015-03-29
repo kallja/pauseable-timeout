@@ -59,7 +59,7 @@ Timeout.prototype.abort = function () {
 			this.state === STATE_PAUSED) {
 		this.state = STATE_ABORTED;
 		clearTimeout(this.timeout);
-		this.timeout = null;
+		this.callback = this.callbackArguments = this.timeout = null;
 		return true;
 	}
 	return false;
