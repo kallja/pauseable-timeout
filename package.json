@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kallja/pauseable-timeout",
   "devDependencies": {
+    "chai": "^2.1.2",
     "mocha": "^2.2.1"
   },
   "dependencies": {
